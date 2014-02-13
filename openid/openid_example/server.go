@@ -49,9 +49,7 @@ func discoverHandler(w http.ResponseWriter, r *http.Request) {
 func callbackHandler(w http.ResponseWriter, r *http.Request) {
 	fullUrl := "http://localhost:8080" + r.URL.String()
 	log.Print(fullUrl)
-	id, err := openid.Verify(
-		fullUrl,
-		discoveryCache, nonceStore)
+	id, err := openid.Verify(fullUrl, discoveryCache, nonceStore)
 	if err == nil {
 		p := make(map[string]string)
 		log.Println(id)
