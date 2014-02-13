@@ -6,7 +6,7 @@ package integration
 
 import (
   "testing"
-  . "openid"
+  . "github.com/beatgammit/openid.go/openid"
 )
 
 func TestGoogleCom(t *testing.T) {
