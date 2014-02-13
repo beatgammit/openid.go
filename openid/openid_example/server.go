@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/kushaldas/openid.go/src/openid"
+	"github.com/beatgammit/openid.go/openid"
 	"html/template"
 	"log"
 	"net/http"

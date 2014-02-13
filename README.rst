@@ -3,7 +3,7 @@ written in go.
 
 Example
 ========
-See src/openid_example for a simple webserver using the openID
+See openid/openid_example for a simple webserver using the openID
 implementation with FAS as service provider. Also, read the comment about the NonceStore towards
 the top of that file.
 
